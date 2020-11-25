@@ -1,3 +1,5 @@
+//Write a program to find the number of consonants and vowels in a given sentence
+
 #include <stdio.h>
 #include <iostream>
 
