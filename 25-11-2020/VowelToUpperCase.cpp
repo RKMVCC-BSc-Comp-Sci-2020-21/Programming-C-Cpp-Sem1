@@ -13,5 +13,5 @@ int x = a.length();
 		if ((a[i] == 'a') || (a[i] == 'e') || (a[i] == 'i') || (a[i] == 'o') || (a[i] == 'u'))
 			a[i] = a[i] - 'a' + 'A';
 	}
-cout << "The processed string is" << a;
+cout << "The processed string is\n" << a;
 }
