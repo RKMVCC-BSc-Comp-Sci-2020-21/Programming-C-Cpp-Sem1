@@ -1,3 +1,5 @@
+//Write a program to convert the vowels of an user given sentence to Upper Case
+
 #include <stdio.h>
 #include <iostream>
 
