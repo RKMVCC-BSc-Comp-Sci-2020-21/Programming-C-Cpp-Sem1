@@ -1,4 +1,4 @@
-// Size of All Variables by Sudipta Sarkar
+// Size of Date Type by Sudipta Sarkar
 
 #include<stdio.h>
 
