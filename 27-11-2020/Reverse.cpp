@@ -1,4 +1,5 @@
 //Write a program to reverse the entered number only when its greater than 9
+//Sol by Srijan Dutta
 
 #include <iostream>
 #include<stdio.h>
