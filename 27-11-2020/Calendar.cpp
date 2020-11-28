@@ -1,4 +1,5 @@
 //Write a Program to enter the number of days and convert it to years and weeks
+//Sol by Srijan Dutta
 
 #include <iostream>
 #include<stdio.h>
