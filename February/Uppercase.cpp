@@ -1,3 +1,5 @@
+//Converting a string from upper to lowercase
+//Solution by Srijan Dutta
 #include <cctype>
 #include <iostream>
 #include <cstring>
