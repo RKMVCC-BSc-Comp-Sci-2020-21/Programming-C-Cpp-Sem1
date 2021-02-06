@@ -1,3 +1,5 @@
+//  C/C++ Program to display the pattern like right angle triangle with number.
+//  Sloution by Srijan Dutta
 #include <iostream>
 
 using namespace std;
