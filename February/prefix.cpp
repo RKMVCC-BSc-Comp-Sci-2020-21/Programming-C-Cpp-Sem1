@@ -19,7 +19,7 @@ int main()
         }
 //*************************************************************************************
    //printing the array elements.
-    cout<<"THE ARRAY ENMTERED BY YOU IS PRINTED BELOW .CHECK IT."<<endl;
+    cout<<"THE ARRAY ENTERED BY YOU IS PRINTED BELOW .CHECK IT."<<endl;
     for(i=0;i<a;i++)
     {
         cout<<arr[i]<<"  ";
