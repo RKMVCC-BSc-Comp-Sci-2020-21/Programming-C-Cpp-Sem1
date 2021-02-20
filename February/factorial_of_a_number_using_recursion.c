@@ -1,3 +1,5 @@
+//Factorial of a number using recursion
+//Name:-Avirup Dutta  Roll No:-721
 #include<stdio.h>
 int factorial(int x);
 
