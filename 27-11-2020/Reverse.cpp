@@ -8,7 +8,7 @@ using namespace std;
 
 int main(void) {
 	int n, d = 0;
-	cout << "Enter the number:\n";
+	cout << "Enter the number:" << endl;
 	cin >> n;
 	if (n > 9) {
 		for (int i = n; i != 0; i /= 10) {
