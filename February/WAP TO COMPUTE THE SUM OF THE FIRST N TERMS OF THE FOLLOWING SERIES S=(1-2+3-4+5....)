@@ -1,0 +1,22 @@
+//wap to find the sum of n terms s=1-2+3-4+5....
+
+#include<iostream>
+using namespace std;
+
+int calculate(int n)
+{
+    int sum;
+    if(n%2==1)
+        return (n+1)/2;
+    return -n/2;
+
+}
+
+int main()
+{
+    int a;
+    cout<<"Enter the number of terms:";
+    cin>>a;
+    cout<<"The sum of "<<a <<" is :"<<calculate(a);
+    return 0;
+}
