@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+ int no1,no2,m=1;
+ cout<<"Enter first number\n";
+ cin>>no1;
+ cout<<"Enter second number\n";
+ cin>>no2;
+ for(int i=no1; ;i++)
+ {
+ 	if(i%no1==0&&i%no2==0)
+ 	{
+ 	m=i;
+ 	break;
+    }
+ }
+ cout<<"LCM of "<<no1<<" and "<<no2<<" is "<<m;
+}
