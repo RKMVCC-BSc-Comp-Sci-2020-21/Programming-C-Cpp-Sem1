@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	printf("\n enter three sides:");
+	scanf("%d%d%d",&a,&b,&c);
+	if(a<=0 || b<=0 || c<=0)
+	{
+		printf("\n The sides cannot be less than or equal to 0");
+		return 0;
+	}
+	if(a+b>c && b+c>a && a+c>b)
+	{
+	printf("The traingle is possible");
+	}
+else{
+	printf("The traingle is not possible");
+}
+return 0;
+}
