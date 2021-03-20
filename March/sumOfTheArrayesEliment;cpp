@@ -1,0 +1,43 @@
+#include<iostream>
+using namespace std;
+class Array
+{
+	//Member variables
+	int arr[20];
+	int len;
+	
+	//Member functions
+	public:
+	void getdata()
+	{
+		int i;
+		cout<<"Enter the length: ";
+		cin>>len;
+		cout<<"Enter the Elements: ";
+		for(i=0;i<len;i++)
+		   cin>>arr[i];
+	}
+	void display()
+	{
+		int i;
+		cout<<"The eliments of the arry are: "<<endl;
+		for(i=0;i<len;i++)
+		   cout<<arr[i]<<" ";
+		
+	}
+	void sumOfElements()
+	{
+		int sum=0,i;
+		for(i=0;i<len;i++)
+		   sum+=arr[i];
+		cout<<"\nThe sum of the elements is: "<<sum;
+	}
+};
+
+int main()
+{
+	Array a1;
+	a1.getdata();
+	a1.display();
+	a1.sumOfElements();
+}
