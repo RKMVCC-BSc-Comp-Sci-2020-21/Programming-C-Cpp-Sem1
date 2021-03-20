@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+	int d,b,r,i=0;
+	long int s=0;
+	printf("\n Enter the decimal number:");
+	scanf("%d",&d);
+	printf("\n Enter the base:");
+	scanf("%d",&b);
+	while(d!=0)
+	{
+	 r= d % b;
+	 s= pow(10,i++)*r +s;
+	 d= d / b;
+	 }
+	printf("\n The converted no is: %ld",s);
+ return 0;
+}
