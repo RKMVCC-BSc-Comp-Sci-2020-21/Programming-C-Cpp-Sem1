@@ -1,0 +1,22 @@
+/* How to print the following pattern(letter) using loop:
+A
+B C
+D E F
+G H I J    */
+
+#include<stdio.h>
+int main()
+{
+	int x=65,i,j,n;
+	printf("\n How many lines?");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	{
+	   for(j=1;j<=i;j++)
+	   {
+	    	printf(" %c ",x++);
+       }
+	   printf("\n");
+    }
+	return 0;
+}
