@@ -1,5 +1,7 @@
 // Program to print a pyramid with nos.//
 
+
+
 #include <iostream>
 using namespace std;
 
