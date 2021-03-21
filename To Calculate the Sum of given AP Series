@@ -1,0 +1,16 @@
+/* Calculate the sum of the following AP Series:
+S = 0 + 2 + 4 + 6 + 8 +......+ n   */
+
+#include<stdio.h>
+int main()
+{
+	int n=0,i=1,sum=0;
+	printf("Enter the length:");
+	scanf("%d",&n);
+	for(i=0;i<=n;i+=2)
+	{
+		sum+=i;
+	}
+	printf("The sum is=%d",sum);
+	return 0;
+}
