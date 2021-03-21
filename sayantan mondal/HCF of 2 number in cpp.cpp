@@ -1,5 +1,7 @@
 // Program to print the HCF of 2 number //
 
+
+
 #include <iostream>
 using namespace std;
 
