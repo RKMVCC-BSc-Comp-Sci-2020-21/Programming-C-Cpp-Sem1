@@ -12,7 +12,7 @@ int main()
     cin >> num;
     rev = num;
     reverse(num.begin(), num.end());
-
+    
     if (rev.compare(num) == 0)
         cout << "The number is palindrome";
     else
