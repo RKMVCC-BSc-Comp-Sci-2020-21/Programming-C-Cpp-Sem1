@@ -1,0 +1,20 @@
+
+// C Program to Find the Volume and Surface Area of Cone:
+ 
+#include <stdio.h>
+#include <math.h>
+ 
+int main()
+{
+ 
+    float r, h;
+    float surface_area, volume;
+ 
+    printf("Enter value of radius and height of a cone :\n ");
+    scanf("%f%f", &r, &h);
+    surface_area = (22 / 7) * r * (r+ sqrt(r * r + h * h));
+    volume = (1.0/3) * (22 / 7) * r * r * h;
+    printf("Surface area of cone is: %.3f", surface_area);
+    printf("\n Volume of cone is : %.3f", volume);
+    return 0;
+}
