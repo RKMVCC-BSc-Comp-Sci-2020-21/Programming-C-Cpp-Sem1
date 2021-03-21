@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+class number
+{
+	//nember variables
+	int n;
+	//number functions
+	public:
+	void getdata()
+	{
+		cout<<"enter the number: ";
+		cin>>n;
+		}	
+	void display()
+	{
+		cout<<"the value is: "<<n;
+		}	
+	number sum(number x)
+	{
+		number t;
+		t.n=n+x.n;
+		return t;
+		}	
+};
+int main()
+{
+	number n1, n2 , n3;
+	n1.getdata();
+	n2.getdata();
+	n3=n1.sum(n2);
+	n3.display();
+}
