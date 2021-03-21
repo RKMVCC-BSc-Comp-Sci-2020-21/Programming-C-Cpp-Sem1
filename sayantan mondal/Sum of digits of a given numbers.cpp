@@ -1,5 +1,6 @@
 // Find the sum of digits of a given number //
 
+
 #include<iostream>
 
 using namespace std;
