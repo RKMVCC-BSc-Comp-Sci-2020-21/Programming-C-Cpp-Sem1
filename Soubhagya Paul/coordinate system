@@ -1,0 +1,25 @@
+/*C program to accept a coordinate point in a XY coordinate system
+  and determine in which quadrant the coordinate point lies*/
+#include<stdio.h>
+int main()
+{
+	int x,y;
+	printf("\n\tEnter the value of X axis : ");
+	scanf("%d",&x);
+	printf("\n\tEnter the value of Y axis : ");
+	scanf("%d",&y);
+	if(x>0 && y>0)
+	printf("\n\t1st quadrant .");
+	else if (x>0 && y<0)
+	printf("\n\t2nd quadrant  .");
+	else if (x<0 && y<0)
+	printf("\n\t3rd quadrant .");
+	else if (x<0 && y>0)
+	printf("\n\t4th quadrant .");
+	else if (x==0 && y==0)
+	printf("\n\tOrigin"); 
+	else 
+	printf("\n\tWeong input.");
+	return 0;
+	
+}
