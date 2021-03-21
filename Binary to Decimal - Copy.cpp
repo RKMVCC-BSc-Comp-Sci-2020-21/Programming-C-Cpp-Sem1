@@ -1,4 +1,4 @@
-// Program to convert binary to decimal number //
+// Program to convert binary to decimal number  //
 
 #include <iostream>
 #include <cmath>
