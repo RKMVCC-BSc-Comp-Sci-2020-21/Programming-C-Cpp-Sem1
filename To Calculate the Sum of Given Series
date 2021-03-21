@@ -1,0 +1,21 @@
+/* Calculate the sum of the following series:
+S = 1 - 2 + 3 - 4 + 5 - 6 + 7 - 8 +......+-n      */
+
+#include<stdio.h>
+int main()
+{
+	int S1=0,S2=0,i,n,Sum;
+	printf("How many terms?\n");
+	scanf("%d",&n);
+	for(i=1;i<=n;i+=2)
+	{
+		S1=S1+i;
+	}
+	for(i=2;i<=n;i+=2)
+	{
+		S2=S2+i;
+	}
+	Sum = S1-S2;
+	printf("The sum is=%d",Sum);
+	return 0;
+}
