@@ -10,7 +10,7 @@ int main() {
 	scanf("%f%f%f",&p,&r,&t);
 	
 	CI = p*pow((1+r/100),t);   // Formula for calculating Compound Interest
-	
+	 
 	printf("Compound interest of %f is = %f\n",p,CI);
 
 return 0;
