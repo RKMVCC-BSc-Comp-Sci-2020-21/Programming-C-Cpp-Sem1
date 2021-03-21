@@ -25,7 +25,7 @@ for(i = 2 ; i <= term ; i++)
 {
 n = n + d;
 printf("\n\t\t%d", n);
-sum = sum + n;
+sum = sum + n; 
 }
 
 printf("\n\tSum of series : %d", sum);
