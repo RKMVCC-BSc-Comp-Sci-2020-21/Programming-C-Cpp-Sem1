@@ -1,1 +1,1 @@
-Programs for the month of december will be added here
+Programs for the month of december will be added here.
