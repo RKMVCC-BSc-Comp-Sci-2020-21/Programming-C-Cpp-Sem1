@@ -1,8 +1,9 @@
 // Pascal's Triangle //
 
 #include<stdio.h>
+
 int main(){
-	int rows, coef = 1, space, i, j;
+	int rows = 0, coef = 1, space, i, j;
 	printf("Enter the number of rows:");
 	scanf("%d",&rows);
 	for(i=0; i<rows; i++)
