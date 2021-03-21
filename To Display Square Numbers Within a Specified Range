@@ -1,0 +1,21 @@
+// Display of perfect square numbers within a specifide range:
+
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+  int L,U,i,c;
+  float f1;
+  printf("Enter the lower limit:\n");
+  scanf("%d", &L);
+  printf("Enter the upper limit:\n");
+  scanf("%d", &U);
+  for(c=L; c<=U; c++)
+  {
+  	i= sqrt(c);
+	f1= sqrt(c);
+  	if(f1==i)
+  	printf("%d\t",c);
+  }
+  return 0;
+}
