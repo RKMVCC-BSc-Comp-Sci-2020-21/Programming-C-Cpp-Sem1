@@ -14,7 +14,7 @@ int main()
     {
         rem = number % 10;
         sum = sum + (rem * rem * rem);
-        number = number / 10;
+        number = number / 10; 
     }
     if (sum == temp)
         printf("The given no is armstrong no");
