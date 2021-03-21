@@ -1,4 +1,4 @@
-// Find the number and sum of all integer between 100 and 200 which are divided by 9//
+// Find the number and sum of all integer between 0 and 100 which are divided by 9//
 
 #include<iostream>
 
