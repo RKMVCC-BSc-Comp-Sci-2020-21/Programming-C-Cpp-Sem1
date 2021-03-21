@@ -8,7 +8,7 @@ int main()
     int i, carr = 1;
     int er = 0;
     cout << "\n\n Find two's complement of a binary value:\n";
-    cout << "----------------------------------------------\n";
+    cout << "-----------------------------------------------\n";
     cout << " Input a " << SZ << " bit binary value: ";
     cin >> bn;
     for (i = 0; i < SZ; i++) 
