@@ -6,6 +6,10 @@ int main()
 	char ch;
 	cout<<"Enter a character in uppercase: "; 
         cin>>ch;
+	 if(ch<'A' || ch>'Z'){
+		cout<<"Enetr Valid character..!!";
+		return 1;	
+			} 
 	//converting the uppercase char to lowercase by adding 32
 	//to the ASCII value of the input character
 	ch=ch+32;
