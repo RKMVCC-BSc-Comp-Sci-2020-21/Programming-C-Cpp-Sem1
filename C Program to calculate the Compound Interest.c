@@ -1,7 +1,7 @@
 // C Program to Calculate the Compound Interest
 
 #include<stdio.h>
-
+ 
 int main() {
 	
 	float p,r,t,CI;
