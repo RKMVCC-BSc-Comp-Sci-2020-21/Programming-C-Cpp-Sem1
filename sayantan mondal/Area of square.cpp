@@ -1,5 +1,7 @@
 // Area of square.cpp //
 
+
+
 #include<iostream>
 using namespace std;
 int main()
