@@ -1,4 +1,4 @@
-Caught in the Middle - Game
+Caught in the Middle-Game
 
 #include<iostream>
 #include<conio.h>
