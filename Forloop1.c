@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
 	int i=0;
 	for(printf("\n initial");printf("\n condition");printf("\n updation")){
