@@ -2,7 +2,7 @@
 int find_factorial(int);
 int main()
 {
-   int num, fact;
+   int num,fact;
    //Ask user for the input and store it in num
    printf("\nEnter any integer number:");
    scanf("%d",&num);
