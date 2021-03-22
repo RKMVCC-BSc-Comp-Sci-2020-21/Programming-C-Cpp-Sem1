@@ -1,5 +1,5 @@
 //Find two's complement of a binary number //
-#include <iostream>
+#include<iostream>
 #define SZ 8
 using namespace std;
 int main()
