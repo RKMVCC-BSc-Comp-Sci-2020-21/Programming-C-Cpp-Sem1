@@ -1,5 +1,5 @@
 //CODED BY SUMIT SAHA.STUDENT OF RKMVCC.
-#include<iostream>
+#include <iostream>
 #include<string>
 #include<iomanip>
 using namespace std;
