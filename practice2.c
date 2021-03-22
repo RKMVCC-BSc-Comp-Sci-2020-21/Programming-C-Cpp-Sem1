@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
 	int a=500,b=2000,c=500;
 	if(a>=400)  // true
