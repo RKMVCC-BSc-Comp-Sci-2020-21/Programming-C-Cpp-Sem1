@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
 	int ch;
 	printf("\n Enter ch:");
