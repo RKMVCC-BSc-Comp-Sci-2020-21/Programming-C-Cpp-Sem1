@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
 	int m,max,n;
 	printf("\n enter first number:");
