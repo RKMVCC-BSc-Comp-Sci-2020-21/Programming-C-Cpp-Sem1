@@ -1,6 +1,6 @@
 // Program to print the HCF of 2 number //
 
-#include <iostream>
+#include<iostream>
 using namespace std;
 
 int main()
