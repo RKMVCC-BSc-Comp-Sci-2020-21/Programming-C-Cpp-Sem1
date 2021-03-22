@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
 	int lb,ub,i;
 	printf("\n Enter Lower bound:");
