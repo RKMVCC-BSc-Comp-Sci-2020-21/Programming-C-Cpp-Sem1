@@ -1,6 +1,6 @@
 // C++ program to illustrate the 
 // above concepts 
-#include <iostream> 
+#include<iostream> 
 #include <map> 
 
 // Driver Code 
