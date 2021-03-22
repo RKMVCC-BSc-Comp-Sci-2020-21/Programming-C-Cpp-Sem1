@@ -1,5 +1,5 @@
 /* Macro with argument */
-#include<stdio.h>
+#include <stdio.h>
 #define F(x) (x+x)
 int main(){
 	int a=10,res;
