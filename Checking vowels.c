@@ -1,6 +1,6 @@
 // Checking of vowels.c //
 
-#include<stdio.h>
+#include  <stdio.h>
 
 int main()
 {
