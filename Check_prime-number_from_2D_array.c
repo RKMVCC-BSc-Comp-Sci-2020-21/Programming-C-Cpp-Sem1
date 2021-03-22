@@ -1,5 +1,5 @@
 /* Prime number from 2D array */
-#include<stdio.h>
+#include <stdio.h>
 int check_prime(int n){
 	
 	int i,prime=1;
