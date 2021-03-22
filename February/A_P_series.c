@@ -1,6 +1,6 @@
 // Write a program in C++ to find out the sum of an A.P. series by  SOUBHAGYA PAUL
 
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
