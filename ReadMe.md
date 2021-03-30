@@ -3,7 +3,8 @@
 
 
 ### About Us:
-    RKMVCC's BSc Computer Science department presents this GitHub repository to provide you with basic coding examples.
+    RKMVCC's BSc Computer Science department presents this GitHub repository to provide you with 
+    basic coding examples.
     We hope this repository helps you and makes your learning experience better. 
     
 ### Features:
